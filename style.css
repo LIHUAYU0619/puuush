@@ -2,6 +2,34 @@
 {box-sizing: border-box;}
 
 body{
-  background-color: rgba(64, 230, 71, 0.78);
-  font-size: 40px;
+  /* background-color: rgba(20, 94, 94, 0.62); */
+  font-size: 16px;
+  /* font-family: 'Antic Slab', serif; */
+  font-family: 'Gentium Basic', serif;
+}
+
+p{
+  margin: 0;
+}
+
+.all{
+  width: 100%;
+}
+
+.text{
+  width:37%;
+  min-width:440px;
+  margin:20px 20px 0 20px;
+  /* color:white; */
+  position: relative;
+
+
+}
+
+.top{
+
+}
+
+.bottom{
+  /* bottom:10px; */
 }
