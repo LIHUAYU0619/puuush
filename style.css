@@ -27,15 +27,15 @@ p{
 
 .text{
   width:32%;
-  min-width:440px;
-  margin:15px 20px 0 25px;
+  min-width:380px;
+  margin:15px 10px 0 30px;
   /* color:white; */
   position: absolute;
   right:10px;
 }
 
 .chinese{
-  font-family: Simsun;
+  font-family: Simsun, serif;
 
 
 }
