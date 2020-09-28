@@ -26,12 +26,13 @@ p{
 }
 
 .text{
-  width:32%;
-  min-width:370px;
+  width:30%;
+  /* min-width:460px; */
   margin:15px 10px 0 30px;
   /* color:white; */
   position: absolute;
-  right:10px;
+  /* right:10px; */
+  text-align:justify
 }
 
 .chinese{
