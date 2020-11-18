@@ -12,6 +12,7 @@ body{
   font-family: 'Gentium Basic', serif;
   /* cursor: url("img/1.cur") 5 5; */
   cursor:crosshair;
+  background-color: rgb(235, 228, 65);
 
   /* cursor:crosshair; */
 }
