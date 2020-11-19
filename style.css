@@ -24,7 +24,7 @@ body {
   font-family: laca, sans-serif;
   font-weight: 100;
   font-style: normal;
-  animation: fadeInAnimation ease 1s; animation-iteration-count: 1;
+  animation: fadeInAnimation ease 1.4s; animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
