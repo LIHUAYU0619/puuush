@@ -188,11 +188,7 @@ p {
   transition-timing-function: ease;
 }
 
-.logo-img{
-  transition: ease 0.7s;
-  transition-timing-function: ease;
-}
-.logo-img:hover {
+.logo:hover {
   /* transform: scale(3); */
   transform: scaleX(0.3);
   /* transform:scaley(7); */
@@ -279,8 +275,8 @@ p {
   .logo{
     position: fixed;
     width: 80%;
-    bottom: 0px;
-    right: 0px;
+    bottom: 20px;
+		right: 0px;
 
   }
 
