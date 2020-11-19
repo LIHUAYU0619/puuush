@@ -14,6 +14,8 @@ body {
   /* cursor:crosshair; */
   /* background-color: rgb(244, 237, 85); */
   background-color: #f5ed63;
+  /* background-color:rgb(135, 241, 113); */
+  /* background-color: rgb(204, 204, 204); */
   margin: 0;
   /* font-weight: 100;
   font-style: normal;
@@ -27,6 +29,8 @@ font-style: normal;
 
 a {
   cursor: pointer;
+  color:inherit;
+  text-decoration: none;
 }
 
 p {
@@ -38,18 +42,20 @@ p {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   /* cursor: url("img/1.png") 5 5; */
 }
 
 .text {
-  width: 30%;
-  min-width: 330px;
-  margin: 15px 10px 0 20px;
+  position: relative;
+  width:70%;
+  /* min-width: 330px; */
+  padding: 15px 10px 0 20px;
   /* color:white; */
-  position: absolute;
   /* right:10px; */
-  text-align: justify
+  text-align: justify;
+  font-size: 1.5em;
+
 }
 
 .left {
@@ -79,10 +85,17 @@ p {
   /* right:0; */
 }
 
+.right:hover{
+  /* background-color: rgb(156, 246, 156);
+  transition: infinite 1s; */
+}
+
 .inner-box {
   position: relative;
   padding: 10px;
   height: 20%;
+  /* height:60%;
+  width:45%; */
   border: 1px dotted black;
   border-radius: 20px;
   font-size: 1.5em;
@@ -93,6 +106,11 @@ p {
   background-color: rgb(210, 209, 210);
   justify-content: center;
   align-items: center;
+}
+
+.inner-box:hover{
+  /* transform:scale(0.99);
+  transition: ease 0.2s; */
 }
 
 .inner-box.pink:hover{
@@ -140,11 +158,23 @@ p {
 
 .logo {
   position: fixed;
-  width: 25%;
-  right: 3%;
-  bottom: 10px;
-  /* background-color: rgb(233, 103, 30); */
+  width: 29%;
+  right: 0%;
+  bottom: 0px;
+  margin-right:10px;
+  margin-left:10px;
+  /* background-color: rgb(210, 209, 210); */
+  transition:ease 0.7s;
+  transition-timing-function: ease;
 }
+
+.logo:hover{
+  /* transform: scale(3); */
+  transform:scaleX(0.3);
+  /* transform:scaley(7); */
+
+}
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -182,4 +212,5 @@ p {
 
 .menu-inner{
   margin:2px;
+  z-index: 999;
 }
