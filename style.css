@@ -188,7 +188,11 @@ p {
   transition-timing-function: ease;
 }
 
-.logo:hover {
+.logo-img{
+  transition: ease 0.7s;
+  transition-timing-function: ease;
+}
+.logo-img:hover {
   /* transform: scale(3); */
   transform: scaleX(0.3);
   /* transform:scaley(7); */
@@ -281,7 +285,7 @@ p {
   }
 
   #menu{
-    z-index: 999;
+
   }
 
   /* .left{
