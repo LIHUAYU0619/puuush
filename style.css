@@ -6,16 +6,11 @@
 body {
   width: 100%;
   height: 100%;
-  /* background-color: rgba(238, 238, 238, 0.62); */
-  /* font-size: 16px; */
-  /* font-family: 'Antic Slab', serif; */
-  /* font-family: 'Gentium Basic', serif; */
-  /* cursor: url("img/1.cur") 5 5; */
-  /* cursor:crosshair; */
+
   /* background-color: rgb(244, 237, 85); */
   /* background-color: #f5ed63; */
-  background-color: #f7f788;
-  /* background-color: lightblue; */
+  /* background-color: #f7f788; */
+  background-color: lightblue;
   /* background-color:rgb(135, 241, 113); */
   /* background-color: rgb(204, 204, 204); */
   margin: 0;
@@ -24,7 +19,7 @@ body {
   font-family: helvetica; */
   /* cursor:crosshair; */
   font-family: laca, sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   font-style: normal;
   animation: fadeInAnimation ease 1.4s; animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -40,15 +35,31 @@ body {
   }
 }
 
+@font-face {
+  font-family: chinese;
+  src: url(ShangShouJianSongXianXiTi-2.ttf);
+}
+
+
+
 a {
   cursor: pointer;
   color: inherit;
   text-decoration: none;
 }
 
+.underline:hover{
+  text-decoration: underline;
+}
 p {
   margin: 0;
 }
+
+.chinese{
+  font-family: ShangShouJianSongXianXiTi-2.ttf;
+  font-size: 0.8em;
+}
+
 
 .container {
   position: absolute;
@@ -67,7 +78,8 @@ p {
   /* color:white; */
   /* right:10px; */
   text-align: justify;
-  font-size: 1.5em;
+  font-size: 1.1em;
+
 }
 
 .left {
@@ -77,6 +89,7 @@ p {
   /* background-color: rgb(162, 106, 226); */
   display: flex;
   flex-direction: row;
+  overflow-y: scroll;
   /* font-family: halyard-display,sans-serif; */
   /* overflow-y: scroll; */
   /* justify-content: center; */
@@ -87,7 +100,7 @@ p {
   position: relative;
   width: 30%;
   height: 100%;
-  background-color: rgb(210, 209, 210);
+  background-color: rgb(218, 218, 218);
   border-left: 1px dotted black;
   overflow-y: scroll;
   /* background-color: rgb(107, 232, 70); */
@@ -98,6 +111,12 @@ p {
 .right:hover {
   /* background-color: rgb(156, 246, 156);
   transition: infinite 1s; */
+}
+
+.box{
+   padding: 0 20px 0 10px;
+   display: flex;
+   flex-direction: row;
 }
 
 .inner-box {
@@ -122,6 +141,7 @@ p {
   /* transform:scale(0.99);
   transition: ease 0.2s; */
   animation: shake 1s;
+  background-color: #f5ed63;
 
 
 /* When the animation is finished, start again */
@@ -148,7 +168,7 @@ p {
 
 .inner-box.pink:hover {
   /* background-color: rgb(233, 189, 242); */
-  background-color: rgb(210, 209, 210);
+  /* background-color: rgb(210, 209, 210); */
 }
 
 .nub {
@@ -168,7 +188,11 @@ p {
 
 .inner-box.green:hover {
   /* background-color: rgb(178, 228, 84); */
-  background-color: rgb(210, 209, 210);
+  /* background-color: rgb(210, 209, 210); */
+}
+
+.top{
+  width:80%;
 }
 
 .green{
@@ -177,13 +201,11 @@ p {
 
 .news {
   position: absolute;
-  margin: 5% 10% 0 10%;
+  margin: 4% 7% 0 7%;
 }
 
 .news-box {
-  font-size: 1.5em;
-  /* font-family: sans-serif; */
-  margin-bottom: 10%;
+  margin-bottom: 7%;
 }
 
 .chinese {
@@ -226,6 +248,16 @@ p {
   scrollbar-width: none;  /* Firefox */
 }
 
+.left::-webkit-scrollbar {
+  display: none;
+}
+
+
+.left {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 /* width */
 /* ::-webkit-scrollbar {
   width: 5px;
@@ -247,22 +279,32 @@ p {
 #menu {
   position: absolute;
   padding: 0 20px 0 10px;
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   /* background-color: rgb(255, 255, 255); */
   bottom: 0;
   z-index: 999;
-}
-
-.news-info {
-  font-size: 1em;
+  position: fixed;
+  font-size:1.1em;
+  z-index: 999;
 }
 
 .menu-inner {
+
   margin: 2px;
   z-index: 999;
+
+}
+
+.menu-inner:hover{
+  /* border:1px dotted black; */
+
+  /* background-color:#f5ed63; */
+  border-radius: 50%;
+  text-decoration: underline;
+  /* padding:8px; */
 }
 
 /* phone */
@@ -270,7 +312,7 @@ p {
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
-    font-size:0.7em;
+
   }
 
   .container{
@@ -287,9 +329,6 @@ p {
 
   } */
 
-  .news{
-    font-size: 0.8em;
-  }
 
   .logo{
     position: fixed;
