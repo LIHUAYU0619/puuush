@@ -238,6 +238,16 @@ iframe {
   /* background-color: rgb(133, 175, 98); */
 }
 
+#about-en {
+  position: relative;
+  width: 100%;
+  /* padding-top:500px; */
+  min-width: 500px;
+  /* bottom: 10px; */
+  text-align: justify;
+  /* background-color: rgb(133, 175, 98); */
+}
+
 /* .info:hover:before{
     content: '';
     position: fixed;
