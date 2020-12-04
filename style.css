@@ -323,7 +323,7 @@ iframe {
   text-shadow: 0 0 5px #a2a2a2;
 }
 
-.big{
+.big {
   font-size: 1.5em;
 }
 
@@ -389,8 +389,6 @@ iframe {
   animation-iteration-count: infinite, infinite;
   animation-play-state: running, running
 }
-
-
 
 .snowflake:nth-of-type(0) {
   left: 1%;
