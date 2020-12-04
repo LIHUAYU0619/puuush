@@ -318,13 +318,13 @@ iframe {
 /* customizable snowflake styling */
 .snowflake {
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-family: Arial, sans-serif;
   text-shadow: 0 0 5px #a2a2a2;
 }
 
 .big {
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 
 @-webkit-keyframes snowflakes-fall {
