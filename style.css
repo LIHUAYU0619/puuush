@@ -156,9 +156,10 @@ iframe {
   right:11%;
   width:250px;
   height:400px;
-  overflow:auto;
+  overflow-x: scroll;
+  overflow-y: scroll;
   border:1px solid rgb(59, 232, 111);
-  z-index:-1;
+
 }
 
 
