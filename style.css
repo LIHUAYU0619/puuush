@@ -156,9 +156,14 @@ iframe {
   right: 11%;
   width: 250px;
   height: 400px;
-  overflow-x: scroll;
-  overflow-y: scroll;
+  overflow: auto;
   border: 1px solid rgb(59, 232, 111);
+}
+
+.icefall::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+      height: 0px;
+    background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
 /* bottom */
