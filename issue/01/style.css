@@ -13,7 +13,7 @@ body {
   background-color: rgb(208, 206, 206);
   /* background-color: rgba(230, 230, 230, 0.44); */
   /* font */
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
   font-weight: 200;
   font-style: normal;
   font-size: 0.95em;
