@@ -47,6 +47,14 @@ img{
   vertical-align: middle;
 }
 
+hr{
+  color: red;
+	background: red;
+	border: 0;
+	height: 1px;
+	/* margin: 1em 0 2em; */
+}
+
 #head {
   position: fixed;
   /* width:100%; */
@@ -101,6 +109,7 @@ img{
   align-items: right; */
   width: 100%;
   bottom: 0px;
+  /* padding:10px; */
 
 }
 
@@ -113,6 +122,7 @@ img{
   /* margin-bottom: 0; */
   /* right:0px; */
   bottom: 0px;
+
 }
 
 
@@ -146,16 +156,16 @@ img{
   padding-top: 40px;
   padding-bottom: 170px;
   font-size: 0.9em;
-  padding: 50px 10px 200px 10px;
+  padding: 50px 10px 70px 10px;
   /* background-color: rgb(121, 139, 198); */
 
 }
 
-.question, .answer{
+.question, .answer, .bio{
   position: relative;
   margin-bottom: 10px;
   display:block;
-  margin: 20px 0 20px 0;
+  margin: 20px 0 10px 0;
   /* padding:20px; */
   /* padding: 10px 0px 10px 0; */
   /* padding-left: 10px; */
@@ -165,7 +175,26 @@ img{
   color: black;
   /* border: solid rgb(69, 186, 230) 1px; */
   /* border-radius: 50px; */
-  width:25%;
+  width:30%;
+}
+
+.a-s{
+  width:31%;
+}
+
+.bio{
+  width:100%;
+  color:red;
+  font-weight:400;
+}
+
+.name{
+  background-color: red;
+  color:red;
+}
+
+.name:hover{
+  color:white;
 }
 
 /* .content span:hover{
@@ -195,20 +224,31 @@ img{
 /* img */
 .mySlides1, .mySlides2, .mySlides3 {display: none}
 
-.mySlides1 img {
+.slideshow-1, .slideshow-2, .slideshow-3, .slideshow-4 {
+  width: 30%;
+}
+
+.slideshow-container img
+ {
   border: solid red 1px;
-  /* border-radius: 50px; */
+}
+
+
+.mySlides1 img, .mySlides2 img, .mySlides3 img {
+  border: solid red 1px;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  width: 40%;
+  width: 30%;
+  /* width: 40%; */
   position: relative;
   /*  */
   font-family: notcaslon-two, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.7em;
+  margin-top:10px;
   /* display: none; */
   color:red;
   /* left:20%; */
