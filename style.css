@@ -150,6 +150,10 @@ iframe {
   margin-right: 10px;
 }
 
+.puuush:hover {
+  text-decoration: underline;
+}
+
 .time {
   /* text-indent:30px; */
   margin-bottom: 5px;

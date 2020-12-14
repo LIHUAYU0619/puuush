@@ -93,13 +93,13 @@ hr{
   margin-right: 10px;
 }
 
+.head-inner:hover {
+  text-decoration: underline;
+}
+
 .puuush-net {
   color: black;
   text-decoration: none;
-}
-
-.puuush-net:hover {
-  text-decoration: underline;
 }
 
 /* bottom */
