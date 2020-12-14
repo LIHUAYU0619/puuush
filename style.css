@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  /* cursor:url("http://www.rw-designer.com/cursor-view/61295.png"); */
 }
 
 html {
@@ -12,10 +11,9 @@ body {
   height: 100%;
   margin: 0;
   font-family: Helvetica;
-  /* font-family: sans-serif; */
   font-weight: 200;
-  /* font-size: 1em; */
   font-style: normal;
+  /* animation */
   animation: fadeInAnimation ease 1.4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -31,7 +29,6 @@ body {
 } */
 
 a {
-  /* margin:0; */
   color: #0000FF;
   text-decoration: underline;
   cursor: pointer;
@@ -55,16 +52,13 @@ iframe {
   }
 }
 
-@font-face {
-  font-family: chinese;
-  src: url(ShangShouJianSongXianXiTi-2.ttf);
-}
-
 .container {
   position: absolute;
-  width: 100vw;
-  height: 300vh;
+  width: 100%;
+  height: 300%;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
   /* background-color: rgb(133, 175, 98); */
 }
 
@@ -72,23 +66,19 @@ iframe {
   position: fixed;
   display: flex;
   flex-direction: row;
-  flex-flow: nowrap;
-  /* justify-content:flex-start; */
-  /* background-color: rgb(73, 182, 177); */
+  /* flex-flow: nowrap; */
   width: 100%;
-  z-index: 999;
 }
 
 .eng {
-  /* position: absolute; */
-  /* right:0px; */
   margin-right: 60px;
 }
 
 .head-inner {
   margin-right: 60px;
-  /* display: inline-flex; */
 }
+
+/* img */
 
 .sec-one {
   position: absolute;
@@ -135,8 +125,12 @@ iframe {
   /* background: #b30000; */
 }
 
-/*  */
+
+/* content */
 .content-puuush {
+  position: relative;
+  display: flex;
+  flex-direction: column;
   font-size: 1em;
   /* background-color: rgb(73, 182, 177); */
   width: 60%;
@@ -325,26 +319,33 @@ iframe {
 /* phone */
 
 @media only screen and (max-width: 600px) {
+
   body {
     width:100%;
-    margin:0;
+  }
 
+  iframe {
+    max-width: 100%;
   }
 
   #head{
-    width:100%;
-    position:fixed;
     font-size:1em;
-    margin:0;
   }
 
   .container{
-    margin:0;
-  max-width:100%;
+    width: 100%;
+  }
+
+  .content-puuush{
+    width: 100%;
+  }
+
+  .inner-puuush{
+width: 100%;
   }
 
   .news-box {
-    width: 90%;
+    width: 100%;
     left: 5px;
     bottom: 110%;
     margin:0;
@@ -354,13 +355,8 @@ iframe {
     display: none;
   }
 
-  .eng {
-    margin-right: 40px;
-  }
-
-
-  .head-inner {
-    margin-right: 60px;
+  .bottom{
+    width:100%;
   }
 
 }
