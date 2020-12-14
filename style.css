@@ -24,11 +24,11 @@ body {
   font-size: 0.95em;
 }
 
-body::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
+/* body::-webkit-scrollbar {
+    width: 0px;
       height: 0px;
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
+    background: transparent;
+} */
 
 a {
   /* margin:0; */
