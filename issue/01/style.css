@@ -67,12 +67,10 @@ hr{
 
 #head {
   position: fixed;
-  /* width:100%; */
   margin: 10px;
   display: flex;
   flex-direction: row;
   z-index: 999;
-  /* background-color: rgb(73, 182, 177); */
 }
 
 .bg-img{

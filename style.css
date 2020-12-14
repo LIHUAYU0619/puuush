@@ -362,6 +362,10 @@ iframe {
     display: none;
   }
 
+  .kima{
+    display: none;
+  }
+
   .bottom {
     width: 100%;
   }
