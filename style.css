@@ -327,15 +327,19 @@ iframe {
 @media only screen and (max-width: 600px) {
   body {
     width:100%;
+    margin:0;
 
   }
 
   #head{
     width:100%;
-    position:fixed
+    position:fixed;
+    font-size:1em;
+    margin:0;
   }
 
   .container{
+    margin:0;
   max-width:100%;
   }
 
@@ -343,6 +347,7 @@ iframe {
     width: 90%;
     left: 5px;
     bottom: 110%;
+    margin:0;
   }
 
   .icefall {
