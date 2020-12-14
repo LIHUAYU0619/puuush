@@ -17,6 +17,7 @@ body {
   animation: fadeInAnimation ease 1.4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  /*  */
   background-color: rgb(255, 255, 255);
   overflow-x: hidden;
   font-size: 0.95em;
@@ -27,7 +28,6 @@ body {
       height: 0px;
     background: transparent;
 } */
-
 a {
   color: #0000FF;
   text-decoration: underline;
@@ -79,7 +79,6 @@ iframe {
 }
 
 /* img */
-
 .sec-one {
   position: absolute;
   top: 2%;
@@ -125,7 +124,6 @@ iframe {
   /* background: #b30000; */
 }
 
-
 /* content */
 .content-puuush {
   position: relative;
@@ -164,10 +162,21 @@ iframe {
   border: 1px solid rgb(59, 232, 111);
 }
 
-.icefall::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-      height: 0px;
-    background: transparent;  /* Optional: just make scrollbar invisible */
+.icefall::-webkit-scrollbar, .kima::-webkit-scrollbar  {
+  width: 0px;
+  /* Remove scrollbar space */
+  height: 0px;
+  background: transparent;
+}
+
+.kima {
+  position: absolute;
+  top: 20%;
+  right: 35%;
+  width: 100px;
+  height: 50px;
+  overflow: auto;
+  border: 1px solid rgb(59, 232, 111);
 }
 
 /* bottom */
@@ -244,7 +253,7 @@ iframe {
   min-width: 500px;
   /* bottom: 10px; */
   text-align: justify;
-  padding:0 10px 0 0px;
+  padding: 0 10px 0 0px;
   /* background-color: rgb(133, 175, 98); */
 }
 
@@ -255,7 +264,7 @@ iframe {
   min-width: 500px;
   /* bottom: 10px; */
   text-align: justify;
-  padding:0 10px 0 0px;
+  padding: 0 10px 0 0px;
   /* background-color: rgb(133, 175, 98); */
 }
 
@@ -317,48 +326,45 @@ iframe {
 }
 
 /* phone */
-
 @media only screen and (max-width: 600px) {
-
   body {
-    width:100%;
+    width: 100%;
   }
 
   iframe {
     max-width: 100%;
   }
 
-  #head{
-    font-size:1em;
+  #head {
+    font-size: 1em;
   }
 
-  .container{
+  .container {
     width: 100%;
   }
 
-  .content-puuush{
+  .content-puuush {
     width: 100%;
   }
 
-  .inner-puuush{
-width: 100%;
+  .inner-puuush {
+    width: 100%;
   }
 
   .news-box {
     width: 100%;
     left: 5px;
     bottom: 110%;
-    margin:0;
+    margin: 0;
   }
 
   .icefall {
     display: none;
   }
 
-  .bottom{
-    width:100%;
+  .bottom {
+    width: 100%;
   }
-
 }
 
 /*  */
