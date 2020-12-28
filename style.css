@@ -163,7 +163,7 @@ iframe {
   border: 1px solid rgb(59, 232, 111);
 }
 
-.icefall::-webkit-scrollbar, .kima::-webkit-scrollbar  {
+.icefall::-webkit-scrollbar, .kima::-webkit-scrollba, .circuit::-webkit-scrollbar  {
   width: 0px;
   /* Remove scrollbar space */
   height: 0px;
@@ -178,6 +178,16 @@ iframe {
   height: 50px;
   overflow: auto;
   border: 1px solid red;
+}
+
+.circuit{
+  position: absolute;
+  top: 40%;
+  right: 30%;
+  width: 200px;
+  height: 50px;
+  /* overflow: auto; */
+  /* border: 1px solid red; */
 }
 
 /* bottom */
@@ -224,8 +234,8 @@ iframe {
 
 /* width */
 .news-bo::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+  width: 1px;
+  height: 1px;
   opacity: 0.5;
 }
 
@@ -238,7 +248,7 @@ iframe {
 /* Handle */
 .news-bo::-webkit-scrollbar-thumb {
   opacity: 0.5;
-  background: rgba(255, 38, 0, 0.97);
+  background: rgba(22, 4, 240, 0.97);
   /* border-radius: 100px; */
 }
 
@@ -368,9 +378,15 @@ iframe {
     display: none;
   }
 
+  .circuit{
+    display: none;
+  }
+
   .bottom {
     width: 100%;
   }
+
+
 }
 
 /*  */
