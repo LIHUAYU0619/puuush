@@ -3,6 +3,8 @@
 }
 
 body{
+  margin:0;
+  padding:10px;
   width:100vw;
   /* font-family:courier; */
   font-family:monospace;
@@ -14,8 +16,21 @@ p{
   text-align: justify;
 }
 
+li{
+  padding-left: 0.5px;
+  padding-bottom:20px;
+  /* list-style: */
+}
+
+.box{
+  width:450px;
+  border: 1px dotted rgb(10, 53, 240);
+  margin-left: 40px;
+  padding:30px 20px 10px 0px;
+}
+
 .container{
-  width:38%;
+  width:610px;
 }
 
 a:hover{
@@ -28,4 +43,27 @@ a:active {
 
 a:visited {
     color:rgb(10, 53, 240);
+}
+
+.container{
+  padding-left: 5px;
+}
+
+.special{
+  font-family:arial;
+  font-size:0.85em;
+}
+
+.text-indent{
+  /* text-indent:2em; */
+  padding-left:2em;
+
+}
+
+.where{
+  list-style-type:lower-roman;
+}
+
+img{
+  /* border:dotted blue 1px; */
 }
