@@ -1,0 +1,9 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: times;
+  font-size: 1.2em;
+  color:rgb(10, 53, 240);
+}
