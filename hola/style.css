@@ -3,7 +3,29 @@
 }
 
 body{
-  font-family: times;
-  font-size: 1.2em;
+  width:100vw;
+  /* font-family:courier; */
+  font-family:monospace;
+  font-size: 1em;
   color:rgb(10, 53, 240);
+}
+
+p{
+  text-align: justify;
+}
+
+.container{
+  width:38%;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color:rgb(10, 53, 240);
 }
