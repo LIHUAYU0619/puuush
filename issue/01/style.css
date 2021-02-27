@@ -169,6 +169,7 @@ hr{
   padding-bottom: 170px;
   font-size: 0.9em;
   padding: 50px 10px 110px 10px;
+  /* margin-bottom:200px; */
   /* background-color: rgb(121, 139, 198); */
 
 }
@@ -198,6 +199,7 @@ hr{
   width:100%;
   color:red;
   font-weight:400;
+  /* margin-bottom:4%; */
 }
 
 .name{
