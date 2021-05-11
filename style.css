@@ -190,6 +190,26 @@ iframe {
   /* border: 1px solid red; */
 }
 
+.yuexuan{
+  position: absolute;
+  top: 28%;
+  right: 18%;
+  width: 160px;
+  height: 140px;
+  overflow: auto;
+  border: 1px solid rgb(202, 207, 194);
+}
+
+.labyrinth{
+  position: absolute;
+  top: 23%;
+  right: 0%;
+  width: 15px;
+  height: 200px;
+  overflow: auto;
+  border: 1px solid red;
+}
+
 /* bottom */
 .bottom {
   position: absolute;
@@ -337,7 +357,7 @@ iframe {
 }
 
 /* phone */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 769px) {
   body {
     width: 100%;
   }
@@ -370,7 +390,7 @@ iframe {
     margin: 0;
   }
 
-  .icefall {
+  .icefall, .labyrinth {
     display: none;
   }
 

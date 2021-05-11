@@ -12,18 +12,51 @@
 </head>
 
 <style>
+	body {
+		background-color: white;
+		/* background-image: url(img/knife.jpeg); */
+		background-position: center;
+	}
 
-body{
-	background-color: white;
-	/* background-image: url(img/knife.jpeg); */
-	background-position: center;
-}
+	img {
+		position: fixed;
+		top: 0;
+		right: 0;
 
-img{
-	position: absolute;
-	right:0;
-}
+	}
 
+
+
+	.poem {
+		display: none;
+		position: fixed;
+		top: 50px;
+		left: 10px;
+		height: 49%;
+		overflow-y: scroll;
+		overflow-x: scroll;
+		z-index: 999;
+	}
+
+	.bottom {
+		position: absolute;
+		/* display: flex; */
+		flex-direction: column;
+		/* justify-content: right;
+  align-items: right; */
+		width: 100%;
+		bottom: 5px;
+		/* border-top: red solid 1px; */
+		padding: 0;
+		padding: 0 10px 0 10px;
+	}
+
+	/* mobile */
+	@media only screen and (max-width: 600px) {
+		.poem{
+			display:block;
+		}
+	}
 </style>
 
 <body>
@@ -39,9 +72,89 @@ img{
 
 	</div>
 
+
 	<div class="content-inner">
 
-		<img src="img/june.gif" width="47%">
+		<div class="poem">
+		<pre style="font-size:0.8em; color:red;">
+Coming home is terrible
+whether the dogs lick your face or not;
+whether you have a wife
+or just a wife-shaped loneliness waiting for you.
+Coming home is terribly lonely,
+so that you think of the oppressive barometric pressure
+back where you have just come from with fondness,
+because everything's worse
+once you're home.
+
+You think of the vermin
+clinging to the grass stalks,
+long hours on the road,
+roadside assistance and ice creams,
+and the peculiar shapes of
+certain clouds and silences
+with longing because you did not want to return.
+Coming home is just awful.
+
+And the home-style silences and clouds
+contribute to nothing
+but the general malaise.
+Clouds, such as they are,
+are in fact suspect,
+and made from a different material
+than those you left behind.
+You yourself were cut
+from a different cloudy cloth,
+returned,
+remaindered,
+ill-met by moonlight,
+unhappy to be back,
+slack in all the wrong spots,
+seamy suit of clothes dishrag-ratty, worn.
+
+You return home
+moon-landed, foreign;
+the Earth's gravitational pull
+an effort now redoubled,
+dragging your shoelaces loose and your shoulders
+etching deeper the stanza of worry on your forehead.
+You return home deepened,
+a parched well linked to tomorrow
+by a frail strand of...
+
+Anyway...
+
+You sigh into the onslaught of identical days.
+One might as well, at a time...
+
+Well...
+Anyway...
+You're back.
+
+The sun goes up and down
+like a tired whore,
+the weather immobile
+like a broken limb
+while you just keep getting older.
+Nothing moves but
+the shifting tides of salt in your body.
+Your vision blears.
+You carry your weather with you,
+the big blue whale,
+a skeletal darkness.
+
+You come back
+with X-ray vision.
+Your eyes have become a hunger.
+You come home with your mutant gifts
+to a house of bone.
+Everything you see now,
+all of it: bone.
+	 </pre>
+
+		</div>
+
+		<a href="https://soundcloud.com/puuush/im-thinking-of-ending-things" target="_blank"><img src="img/june.gif" width="47%"></a>
 		<p>
 
 
