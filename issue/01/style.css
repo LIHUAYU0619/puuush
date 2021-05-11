@@ -368,7 +368,7 @@ hr{
   }
 
   .list {
-    display: none;
+    /* display: none; */
     font-size: 0.3em;
   }
 
@@ -379,6 +379,8 @@ hr{
   .content{
     padding-bottom:40px;
   }
+
+
 
 
 

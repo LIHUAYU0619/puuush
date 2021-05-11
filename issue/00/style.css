@@ -123,6 +123,10 @@ video{
 
 }
 
+.list{
+  z-index: 999;
+}
+
 /* mobile */
 
 @media only screen and (max-width: 600px) {
@@ -146,10 +150,15 @@ video{
 
   }
 
+.video{
+  top:50px;
+}
+
 
   .list {
-    display: none;
+    /* display: none; */
     font-size: 0.3em;
+    z-index: 999;
   }
 
 }
