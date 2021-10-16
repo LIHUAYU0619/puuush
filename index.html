@@ -19,13 +19,19 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+<style>
+#fold, #fold_p:hover{
+  cursor:pointer;
+}
+</style>
+
 <body>
 
   <div class="whole">
     <!-- top -->
     <div class="top">
-      You may also find us here: <a href="https://www.instagram.com/puuush_net/" target="_blank">instagram</a>, <a href="https://soundcloud.com/puuush" target="_blank">soundcloud</a>, <a href="">wechat</a>, <a href="https://weibo.com/u/7512016436"
-        target="_blank">weibo</a>, or write to us &rarr; <a href="">puuush.net@gmail.com</a>. ≈✧≈
+      You may also find us here: <a href="https://www.instagram.com/puuush_net/" target="_blank">instagram</a>, <a href="https://soundcloud.com/puuush" target="_blank">soundcloud</a>, <a id="fold"><span id="fold_p">wechat</span></a>, <a href="https://weibo.com/u/7512016436" target="_blank">weibo</a>, or write to us &rarr; <a href="">puuush.net@gmail.com</a>. ≈✧≈
+
     </div>
 
     <!-- title & menu -->
@@ -87,8 +93,8 @@
         <div class="item">
           <a href="issue/weaving_night.html" target="popup"
             onclick="window.open('issue/weaving_night.html','popup','width=658,height=540,scrollbars=yes,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">
-          <img src="img/07-cover.jpg" width="100%" alt="MF">
-        </a>
+            <img src="img/07-cover.jpg" width="100%" alt="MF">
+          </a>
 
           <iframe width="100%" height="20" scrolling="no" frameborder="no" margin="0"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1097406754&color=%237ca474&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
@@ -99,8 +105,8 @@
           <span class="sound">
             <a href="issue/weaving_night.html" target="popup"
               onclick="window.open('issue/weaving_night.html','popup','width=658,height=540,scrollbars=yes,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">
-            Weaving Night
-          </a>
+              Weaving Night
+            </a>
           </span>
           <span class="author">
             Mix by Bebird
@@ -125,7 +131,7 @@
         <!-- 06 -->
         <div class="item">
 
-            <img src="img/06-cover.jpeg" width="100%">
+          <img src="img/06-cover.jpeg" width="100%">
 
 
           <iframe width="100%" height="20" scrolling="no" frameborder="no" margin="0"
@@ -382,3 +388,13 @@
 
 
 </body>
+
+<script>
+$(document).ready(function () {
+    $("#fold").click(function () {
+        $("#fold_p").fadeOut(function () {
+            $("#fold_p").text(($("#fold_p").text() == 'wechat') ? 'puuush' : 'wechat').fadeIn();
+        })
+    })
+});
+</script>
