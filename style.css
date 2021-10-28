@@ -13,10 +13,13 @@ body {
 a {
   text-decoration: underline;
   color: inherit;
+
 }
 
 a:hover {
   text-decoration: none;
+  cursor:pointer;
+
 }
 
 @font-face {
