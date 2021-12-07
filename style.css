@@ -67,6 +67,19 @@ a:hover {
   /* height:2000px; */
 }
 
+.bottom{
+  position: relative;
+  bottom:20px;
+  margin-top:30px;
+  padding-bottom: 5px;
+
+  /* background-color: red; */
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Xanh Mono', monospace;
+}
+
 /*  */
 .flex-box {
   position: relative;
