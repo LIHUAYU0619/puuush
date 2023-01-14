@@ -429,8 +429,10 @@ iframe {
     padding:7px 20px 0 0px;
   }
 
-  .title-img:hover{
+  .title-img{
     transform: none;
+    display: none;
+      visibility: hidden;
   }
 
   .flex-box{
@@ -464,6 +466,13 @@ iframe {
     z-index: 999;
     /* margin:0; */
     /* width: 100%; */
+  }
+
+  .bottom{
+    position: fixed;
+    /* bottom:20px; */
+    visibility: hidden;
+
   }
 
 
